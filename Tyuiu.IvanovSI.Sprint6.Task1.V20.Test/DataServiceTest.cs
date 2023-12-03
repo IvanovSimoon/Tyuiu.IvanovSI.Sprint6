@@ -34,7 +34,7 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20.Test
 
             double[] res;
             res = new double[len];
-            res = ds.GetMassFunction(startValue, stopValue);
+            res = ds.GetMassFunction(startValue, stopValue);  
             CollectionAssert.AreEqual(valueWaitArray, res);
         }
     }

@@ -18,7 +18,7 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20.Lib
 
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round(((2 * x - 3) / (Math.Cos(x) - 2 * x)) + 5 * x - Math.Sin(x),2);
+                y = Math.Round(((2 * x - 3) / (Math.Cos(x) - 2 * x)) + 5 * x - Math.Sin(x),2);  
 
                 valueArray[cnt] = y;
                 cnt++;

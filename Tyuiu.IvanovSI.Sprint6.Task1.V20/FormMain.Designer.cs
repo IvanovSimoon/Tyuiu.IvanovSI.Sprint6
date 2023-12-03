@@ -30,7 +30,11 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20
         private void InitializeComponent()
         {
             this.groupBoxTask_ISI = new System.Windows.Forms.GroupBox();
+            this.pictureBoxFormula_ISI = new System.Windows.Forms.PictureBox();
+            this.textBoxTaskCond_ISI = new System.Windows.Forms.TextBox();
             this.groupBoxRes_ISI = new System.Windows.Forms.GroupBox();
+            this.textBoxResText_ISI = new System.Windows.Forms.TextBox();
+            this.textBoxRes_ISI = new System.Windows.Forms.TextBox();
             this.groupBoxData_ISI = new System.Windows.Forms.GroupBox();
             this.textBoxEnd_ISI = new System.Windows.Forms.TextBox();
             this.textBoxEndText_ISI = new System.Windows.Forms.TextBox();
@@ -38,14 +42,10 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20
             this.textBoxStart_ISI = new System.Windows.Forms.TextBox();
             this.buttonHelp_ISI = new System.Windows.Forms.Button();
             this.buttonDone_ISI = new System.Windows.Forms.Button();
-            this.textBoxTaskCond_ISI = new System.Windows.Forms.TextBox();
-            this.pictureBoxFormula_ISI = new System.Windows.Forms.PictureBox();
-            this.textBoxResText_ISI = new System.Windows.Forms.TextBox();
-            this.textBoxRes_ISI = new System.Windows.Forms.TextBox();
             this.groupBoxTask_ISI.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_ISI)).BeginInit();
             this.groupBoxRes_ISI.SuspendLayout();
             this.groupBoxData_ISI.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_ISI)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxTask_ISI
@@ -59,6 +59,26 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20
             this.groupBoxTask_ISI.TabStop = false;
             this.groupBoxTask_ISI.Text = "Условие";
             // 
+            // pictureBoxFormula_ISI
+            // 
+            this.pictureBoxFormula_ISI.Image = global::Tyuiu.IvanovSI.Sprint6.Task1.V20.Properties.Resources._121212;
+            this.pictureBoxFormula_ISI.Location = new System.Drawing.Point(6, 61);
+            this.pictureBoxFormula_ISI.Name = "pictureBoxFormula_ISI";
+            this.pictureBoxFormula_ISI.Size = new System.Drawing.Size(293, 35);
+            this.pictureBoxFormula_ISI.TabIndex = 1;
+            this.pictureBoxFormula_ISI.TabStop = false;
+            // 
+            // textBoxTaskCond_ISI
+            // 
+            this.textBoxTaskCond_ISI.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxTaskCond_ISI.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxTaskCond_ISI.Location = new System.Drawing.Point(6, 19);
+            this.textBoxTaskCond_ISI.Name = "textBoxTaskCond_ISI";
+            this.textBoxTaskCond_ISI.Size = new System.Drawing.Size(475, 13);
+            this.textBoxTaskCond_ISI.TabIndex = 0;
+            this.textBoxTaskCond_ISI.Text = "Протабулировать функцию изображенную на картинке\r\n и вывести результат в виде таб" +
+    "лици";
+            // 
             // groupBoxRes_ISI
             // 
             this.groupBoxRes_ISI.Controls.Add(this.textBoxResText_ISI);
@@ -69,6 +89,28 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20
             this.groupBoxRes_ISI.TabIndex = 0;
             this.groupBoxRes_ISI.TabStop = false;
             this.groupBoxRes_ISI.Text = "Вывод данных";
+            // 
+            // textBoxResText_ISI
+            // 
+            this.textBoxResText_ISI.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxResText_ISI.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxResText_ISI.Location = new System.Drawing.Point(6, 19);
+            this.textBoxResText_ISI.Name = "textBoxResText_ISI";
+            this.textBoxResText_ISI.Size = new System.Drawing.Size(155, 13);
+            this.textBoxResText_ISI.TabIndex = 0;
+            this.textBoxResText_ISI.Text = "Результат:";
+            // 
+            // textBoxRes_ISI
+            // 
+            this.textBoxRes_ISI.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxRes_ISI.Font = new System.Drawing.Font("Consolas", 10F);
+            this.textBoxRes_ISI.Location = new System.Drawing.Point(6, 38);
+            this.textBoxRes_ISI.Multiline = true;
+            this.textBoxRes_ISI.Name = "textBoxRes_ISI";
+            this.textBoxRes_ISI.ReadOnly = true;
+            this.textBoxRes_ISI.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxRes_ISI.Size = new System.Drawing.Size(246, 372);
+            this.textBoxRes_ISI.TabIndex = 0;
             // 
             // groupBoxData_ISI
             // 
@@ -139,48 +181,6 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20
             this.buttonDone_ISI.UseVisualStyleBackColor = false;
             this.buttonDone_ISI.Click += new System.EventHandler(this.buttonDone_ISI_Click);
             // 
-            // textBoxTaskCond_ISI
-            // 
-            this.textBoxTaskCond_ISI.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxTaskCond_ISI.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxTaskCond_ISI.Location = new System.Drawing.Point(6, 19);
-            this.textBoxTaskCond_ISI.Name = "textBoxTaskCond_ISI";
-            this.textBoxTaskCond_ISI.Size = new System.Drawing.Size(475, 13);
-            this.textBoxTaskCond_ISI.TabIndex = 0;
-            this.textBoxTaskCond_ISI.Text = "Протабулировать функцию изображенную на картинке\r\n и вывести результат в виде таб" +
-    "лици";
-            // 
-            // pictureBoxFormula_ISI
-            // 
-            this.pictureBoxFormula_ISI.Image = global::Tyuiu.IvanovSI.Sprint6.Task1.V20.Properties.Resources._121212;
-            this.pictureBoxFormula_ISI.Location = new System.Drawing.Point(6, 61);
-            this.pictureBoxFormula_ISI.Name = "pictureBoxFormula_ISI";
-            this.pictureBoxFormula_ISI.Size = new System.Drawing.Size(293, 35);
-            this.pictureBoxFormula_ISI.TabIndex = 1;
-            this.pictureBoxFormula_ISI.TabStop = false;
-            // 
-            // textBoxResText_ISI
-            // 
-            this.textBoxResText_ISI.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxResText_ISI.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxResText_ISI.Location = new System.Drawing.Point(6, 19);
-            this.textBoxResText_ISI.Name = "textBoxResText_ISI";
-            this.textBoxResText_ISI.Size = new System.Drawing.Size(155, 13);
-            this.textBoxResText_ISI.TabIndex = 0;
-            this.textBoxResText_ISI.Text = "Результат:";
-            // 
-            // textBoxRes_ISI
-            // 
-            this.textBoxRes_ISI.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxRes_ISI.Font = new System.Drawing.Font("Consolas", 10F);
-            this.textBoxRes_ISI.Location = new System.Drawing.Point(6, 38);
-            this.textBoxRes_ISI.Multiline = true;
-            this.textBoxRes_ISI.Name = "textBoxRes_ISI";
-            this.textBoxRes_ISI.ReadOnly = true;
-            this.textBoxRes_ISI.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxRes_ISI.Size = new System.Drawing.Size(246, 372);
-            this.textBoxRes_ISI.TabIndex = 0;
-            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -194,14 +194,14 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20
             this.MaximizeBox = false;
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Спринт 6 | Таск 1 | Вариант 20 | Иванов С. И.";
             this.groupBoxTask_ISI.ResumeLayout(false);
             this.groupBoxTask_ISI.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_ISI)).EndInit();
             this.groupBoxRes_ISI.ResumeLayout(false);
             this.groupBoxRes_ISI.PerformLayout();
             this.groupBoxData_ISI.ResumeLayout(false);
             this.groupBoxData_ISI.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFormula_ISI)).EndInit();
             this.ResumeLayout(false);
 
         }

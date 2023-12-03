@@ -35,7 +35,7 @@ namespace Tyuiu.IvanovSI.Sprint6.Task1.V20
 
                 textBoxRes_ISI.Text = "";
                 textBoxRes_ISI.AppendText("+----------+------------+" + Environment.NewLine);
-                textBoxRes_ISI.AppendText("|    X     |    F(x)    |" + Environment.NewLine);
+                textBoxRes_ISI.AppendText("|    X     |    F(x)    |" + Environment.NewLine);  
                 textBoxRes_ISI.AppendText("+----------+------------+" + Environment.NewLine);
 
                 for (int i = 0; i <= len - 1; i++)
