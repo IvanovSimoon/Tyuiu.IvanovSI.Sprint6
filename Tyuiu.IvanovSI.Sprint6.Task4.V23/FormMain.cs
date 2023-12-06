@@ -79,9 +79,6 @@ namespace Tyuiu.IvanovSI.Sprint6.Task4.V23
             }
         }
 
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

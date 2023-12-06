@@ -247,7 +247,6 @@ namespace Tyuiu.IvanovSI.Sprint6.Task4.V23
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 4 | Вариант 23 | Иванов С. И.";
-            this.Load += new System.EventHandler(this.FormMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.chartFunction_ISI)).EndInit();
             this.groupBoxOut_ISI.ResumeLayout(false);
             this.groupBoxOut_ISI.PerformLayout();
